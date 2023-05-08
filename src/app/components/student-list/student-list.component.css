@@ -1,0 +1,16 @@
+.stu-table{
+margin-top: 2rem;
+width: 100%;
+overflow-x: scroll;
+overflow-y: scroll;
+
+}
+.StudentsTable{
+    margin-top: 2rem;
+    text-align: center;
+}
+.norecord{
+    text-align: center;
+    margin-top: 1rem;
+    
+}

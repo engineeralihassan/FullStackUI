@@ -1,0 +1,62 @@
+<div class="center">
+    <h1>Add new Student</h1>
+    <a routerLink="/student" class="btn btn-primary">Watch Registered students List </a>
+</div>
+<div class="mt-1 container">
+   
+    <form #myForm="ngForm" (ngSubmit)="addStudent(myForm)">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">ID</label>
+            <input type="text" name="id" class="form-control" id="exampleInputEmail1" ngModel>
+           
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input type="text" name="name" class="form-control" id="exampleInputEmail1" ngModel>
+         
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Father Name</label>
+            <input type="text" name="fatherName" class="form-control" id="exampleInputEmail1" ngModel  aria-describedby="emailHelp">
+           
+          </div>
+         
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Standard</label>
+            <input type="text" name="standar" class="form-control" >
+           
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Section</label>
+            <input type="text" name="section" class="form-control" id="exampleInputEmail1"  ngModel  aria-describedby="emailHelp">
+           
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Roll No</label>
+            <input type="number" name="rollNo" class="form-control" id="exampleInputEmail1" ngModel   aria-describedby="emailHelp">
+           
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">contact</label>
+            <input type="text" name="contact" class="form-control" id="exampleInputEmail1" ngModel  aria-describedby="emailHelp">
+           
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Fees</label>
+            <input type="number" name="fees" class="form-control" id="exampleInputEmail1" ngModel  aria-describedby="emailHelp">
+           
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">CGPA</label>
+            <input type="number" name="cgpa" class="form-control" id="exampleInputEmail1" ngModel   aria-describedby="emailHelp">
+           
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">program</label>
+            <input type="text" name="degree" class="form-control" id="exampleInputEmail1"  ngModel  aria-describedby="emailHelp">
+           
+          </div>
+      
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>

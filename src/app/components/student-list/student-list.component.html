@@ -1,0 +1,43 @@
+<h1 class=" StudentsTable">Al-Ilam school Student List</h1>
+<div class="center"><a routerLink="/student/add" class="btn btn-primary text-center" >Add student</a></div>
+<table class="table table-dark table-striped stu-table"  >
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Full Name</th>
+        <th scope="col">Father name</th>
+        <th scope="col">Standard</th>
+        <th scope="col">section</th>
+        <th scope="col">RollNo</th>
+        <th scope="col">contact </th>
+        <th scope="col">Fees</th>
+        <th>CGPA</th>
+        <th>Program</th>
+        <th>Update</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of students">
+        <th scope="row">{{student.id}}</th>
+        <td>{{student.name}}</td>
+        <td>{{student.fatherName}}</td>
+        <td>{{student.standar}}</td>
+        <td>{{student.section}}</td>
+        <td>{{student.rollNo}}</td>
+        <td>{{student.contact}}</td>
+        <td>{{student.fees}}</td>
+        <td>{{student.cgpa}}</td>
+        <td>{{student.degree}}</td>
+        <td><a [routerLink]="['/students','update',student.id]" class="btn btn-primary">
+          Update</a></td>
+          <td><a class="btn btn-primary" (click)="DeleteStudent(student.id)">
+            Delete</a></td>
+          
+       
+      </tr>
+     
+    </tbody>
+  </table>
+
+  

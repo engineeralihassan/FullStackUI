@@ -1,27 +1,29 @@
-# FullStackUI
+# make new forlder for angular project
+# make new angualr project 
+# install bootstrap and done 
+# make compoents and also make the table to show the records
+# stard making the back end folder
+# make the ASP.Net core Web Api type project 
+# install 2 packages 
+# EntityFrameworkCoreSqlserver 
+# EntityFrameworkCore.Tools
+# create new models folder
+# Make new class in the models folder
+# make properties in the class 
+# make new folder for bd-content name data
+# make a class in this folder called DBClass
+# this class is also inherit from the DBContent class of entity framwork
+# create a constructor of this class with options parameters
+# create property for bdSet of type student class
+# now make the connection strings
+# IS THE APPSETTING.JSON DEFIN NEW field connection string
+# use the dependency inject and inject the db program.cs file
+# after this we migration using tools by nuget packege manger console
+# Add-Migration "Initial Migration" entity framwork add the migration for us
+# nn is the command to create database 
+# we create the new controllers in the controllers folder for crud oprations
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+https://www.udemy.com/share/107s2m3@ULsIO-obesaop7JTaHy-XmmOV0q6mut74U5b1YAW-_EyuMSsVfMoCIB7FytdVXxhqA==/
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
